@@ -1,0 +1,5 @@
+def to_uppercase(s):
+    return s.upper()
+
+s = "hello, world!"
+print(to_uppercase(s))
