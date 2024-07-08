@@ -1,0 +1,5 @@
+def list_to_string(lst):
+    return ''.join(map(str, lst))
+
+lst = [1, 2, 3, 4, 5]
+print(list_to_string(lst))
