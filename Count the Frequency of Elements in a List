@@ -1,0 +1,6 @@
+def frequency(lst):
+    from collections import Counter
+    return dict(Counter(lst))
+
+lst = [1, 2, 3, 1, 2, 3]
+print(frequency(lst))
