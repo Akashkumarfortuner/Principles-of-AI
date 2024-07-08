@@ -1,0 +1,5 @@
+def max_in_list(lst):
+    return max(lst)
+
+lst = [1, 2, 3, 4, 5]
+print(max_in_list(lst))
