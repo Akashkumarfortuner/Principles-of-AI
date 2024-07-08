@@ -1,0 +1,10 @@
+def swap_digits(n):
+    if 100 <= n <= 999:
+        str_n = str(n)
+        swapped = int(str_n[::-1])
+        return swapped
+    else:
+        return "Number is not a 3-digit number"
+
+n = 123
+print(swap_digits(n))
