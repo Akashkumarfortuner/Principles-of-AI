@@ -1,0 +1,5 @@
+def count_letters(s):
+    return len([char for char in s if char.isalpha()])
+
+s = "Hello, World!"
+print(count_letters(s))
