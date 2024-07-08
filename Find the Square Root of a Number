@@ -1,0 +1,7 @@
+import math
+
+def square_root(n):
+    return math.sqrt(n)
+
+n = 16
+print(square_root(n))
