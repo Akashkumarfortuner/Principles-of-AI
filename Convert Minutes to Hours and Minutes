@@ -1,0 +1,7 @@
+def minutes_to_hours_minutes(minutes):
+    hours = minutes // 60
+    minutes = minutes % 60
+    return f"{hours} hour(s) and {minutes} minute(s)"
+
+minutes = 130
+print(minutes_to_hours_minutes(minutes))
