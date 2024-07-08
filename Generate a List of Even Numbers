@@ -1,0 +1,5 @@
+def even_numbers(n):
+    return [x for x in range(n+1) if x % 2 == 0]
+
+n = 10
+print(even_numbers(n))
